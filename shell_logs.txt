@@ -1,0 +1,500 @@
+   38  make heap_runner
+   39  python3 driver.py -w1
+   40  make heap_runner
+   41  python3 driver.py -w1
+   42  make heap_runner
+   43  python3 driver.py -w1
+   44  make heap_runner
+   45  python3 driver.py -w1
+   46  python3 driver.py 
+   47  make heap_runner
+   48  python3 driver.py -w1
+   49  make heap_runner
+   50  python3 driver.py -w1
+   51  make heap_runner
+   52  python3 driver.py -w1
+   53  python3 driver.py 
+   54  make heap_runner
+   55  python3 driver.py -w1
+   56  make heap_runner
+   57  python3 driver.py -w1
+   58  make heap_runner
+   59  python3 driver.py -w1
+   60  make heap_runner
+   61  python3 driver.py -w1
+   62  make heap_runner
+   63  python3 driver.py -w1
+   64  make clean
+   65  make debug
+   66  gdb ./runner
+   67  gdb ./runner
+   68  make heap_runner
+   69  python3 driver.py -w1
+   70  make heap_runner
+   71  python3 driver.py -w1
+   72  make heap_runner
+   73  python3 driver.py -w1
+   74  python3 driver.py 
+   75  make heap_runner
+   76  python3 driver.py -w1
+   77  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   78  make heap_runner
+   79  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   80  make heap_runner
+   81  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   82  make heap_runner
+   83  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   84  python3 driver.py -w1
+   85  python3 driver.py -w1
+   86  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   87  make heap_runner
+   88  ./runner -ru traces/week2/basic/amptjp-bal.rep
+   89  ./runner -ru
+   90  ./runner -ruc traces/week2/basic/amptjp-bal.rep
+   91  make heap_runner
+   92  python3 driver.py -w1
+   93  python3 driver.py 
+   94  ./runner -ruc traces/week2/basic/binary.rep
+   95  ./runner -ruc traces/week2/basic/amptjp-bal.rep
+   96  make heap_runner
+   97  python3 driver.py -w1
+   98  make heap_runner
+   99  python3 driver.py -w1
+  100  make heap_runner
+  101  python3 driver.py -w1
+  102  make heap_runner
+  103  python3 driver.py -w1
+  104  make heap_runner
+  105  make heap_runner
+  106  python3 driver.py -w1
+  107  python3 driver.py 
+  108  gdb ./runner
+  109  make clean
+  110  make debug
+  111  gdb ./runner
+  112  make heap_runner
+  113  python3 driver.py -w1
+  114  python3 driver.py 
+  115  make heap_runner
+  116  python3 driver.py 
+  117  make heap_runner
+  118  python3 driver.py -w1
+  119  make heap_runner
+  120  python3 driver.py -w1
+  121  make heap_runner
+  122  python3 driver.py -w1
+  123  make heap_runner
+  124  python3 driver.py -w1
+  125  python3 driver.py 
+  126  make heap_runner
+  127  python3 driver.py 
+  128  make heap_runner
+  129  python3 driver.py 
+  130  make heap_runner
+  131  git add .
+  132  git commit -m "MM_Week2"
+  133  git push origin main
+  134  python3 driver.py 
+  135  ~/.gdbinit
+  136  pwd
+  137  touch ~/.gdbinit
+  138  ls -a
+  139  echo "set history to save"
+  140  echo "set history to save" > ~/.gdbinit
+  141  cat ~/.gdbinit
+  142  ssh-keygen -t ed25519
+  143  cat /u/connor77/.ssh/id_ed25519.pub
+  144  mkdir demo
+  145  pwd
+  146  cd demo
+  147  pwd
+  148  git clone git@github.com:conchobhar2277/PRACTICE-FOR-PROFICIENCY.git
+  149  ls
+  150  cd demo
+  151  ls
+  152  cd PRACTICE-FOR-PROFICIENCY
+  153  PWD
+  154  pwd
+  155  bash
+  156  git pull "pulled"
+  157  git commit -m "yes"
+  158  git push origin main
+  159  make check
+  160  history
+  161  history > shell_logs.txt
+  162  show commands
+  163  make clean
+  164  make done
+  165  make check
+  166  make tests
+  167  make clean
+  168  make tests
+  169  make check
+  170  make clean
+  171  make debug
+  172  gdb ./mini_ci
+  173  ./mini_ci testcases/basic_add.s
+  174  ./mini_ci
+  175  ./mini_ci testcases/basic_add.s
+  176  make check
+  177  gdb mini_ci
+  178  make clean
+  179  make debug
+  180  gdb mini_ci
+  181  make check
+  182  q
+  183  chmod +x mini_ci_reference
+  184  ls -l
+  185  make clean
+  186  make check
+  187  ./mini_ci testcases/multi_op_err.s
+  188  make clean
+  189  make debug
+  190  gdb mini_ci
+  191  make check
+  192  ./mini_ci testcases/multi_op_err.s
+  193  make clean
+  194  make debug
+  195  gdb mini_ci
+  196  make clean
+  197  make debug
+  198  make check
+  199  gdb mini_ci
+  200  make clean
+  201  make check
+  202  make
+  203  gdb mini_ci
+  204  make clean
+  205  make debug
+  206  gdb mini_ci
+  207  make 
+  208  make check
+  209  git add .
+  210  git commit -m "finished"
+  211  git push 
+  212  git push origin main
+  213  git pull
+  214  git config pull.rebase false
+  215  git push origin main
+  216  git pull
+  217  ls
+  218  gdb
+  219  touch gdb_logs.txt
+  220  git add .
+  221  git commit -m "done"
+  222  git push
+  223  ls
+  224  pwd
+  225  touch ~/.gdbinit
+  226  ls -a
+  227  touch ~gdbinit_2
+  228  ls -a
+  229  touch ~/.gdbinit_2
+  230  ls -a
+  231  echo "set history save on"
+  232  echo "set history save on" > ~/.gdbinit_2
+  233  ssh-keygen -t ed25519
+  234  cat SHA256:ESwKXnb1+CPUKN6H8aIKg9Rxa+l/YsF3fQDP1NDEN7g connor77@celestite
+  235  cat /u/connor77/.ssh/id_ed25519.pub
+  236  mkdir demo_2
+  237  las -a
+  238  ls -a
+  239  cd demo_2
+  240  pwd
+  241  git clone git@github.com:conchobhar2277/PRACTICE_2.git
+  242  bash
+  243  git pull
+  244  make check
+  245  make comp
+  246  make clean
+  247  make debug
+  248  gdb ./a.out
+  249  gdb a.out
+  250  gdb /a.out
+  251  gdb bin/a.out
+  252  ./bin/a.out testcases/short1.rep
+  253  ./bin/a.out -t testcases/short1.rep
+  254  make check
+  255  make comp
+  256  gdb bin/a.out
+  257  ./bin/ref.out -t testcases/short1.rep
+  258  ./ref.out -t testcases/short1.rep
+  259  chmod +x ref.out
+  260  ./ref.out -t testcases/short1.rep
+  261  gdb ref.out
+  262  make clean
+  263  make debug
+  264  gdb ref.out
+  265  make debug
+  266  gdb bin/a.out
+  267  make check
+  268  gdb bin/a.out
+  269  make check
+  270  make comp
+  271  make clean
+  272  make comp
+  273  ./bin/a.out testcases/short2.rep
+  274  ./bin/a.out -t testcases/short2.rep
+  275  gdb bin/a.out
+  276  make clean
+  277  make debug
+  278  gdb bin/a.out
+  279  make
+  280  make
+  281  make
+  282  make
+  283  make
+  284  make comp
+  285  history
+  286  history > shell_logs.txt
+  287  git check-ignore -v .gdbhistory
+  288  git add -f .gdbhistory
+  289  gdb
+  290  gdb
+  291  git add .
+  292  git commit -m "done_2"
+  293  git push
+  294  ls -a
+  295  ls -ld demo demo_2 .gdbinit .gdbinit_2 '~gdbinit_2'
+  296  rm -r demo demo_2 .gdbinit .gdbinit_2 '~gdbinit_2'
+  297  ls -a
+  298  ssh-keygen -t ed25519
+  299  cat /u/connor77/.ssh/id_ed25519.pub
+  300  mkdir prof1
+  301  ls -a
+  302  cd prof1
+  303  git clone SHA256:heqkJloOXU0I0tgsKJor+Q+VvCkkCrwtcSB+Hki2QVI
+  304  pwd
+  305  git clone git@github.com:CS429-FA2025/shared-repo-version-a-conchobhar2277.git
+  306  make raptor
+  307  make stego
+  308  git remote -v
+  309  ./bin/testcases/uneven_old
+  310  ./bin/orderlogs testcases/uneven_old
+  311  ./bin/orderlogs -f testcases/uneven_old
+  312  gdb bin/orderlogs
+  313  make clean
+  314  make debug
+  315  make trike
+  316  gdb bin/orderlogs
+  317  make trex
+  318  make trike
+  319  gdb bin/orderlogs
+  320  make spinosaurus
+  321  make trike
+  322  gdb bin/orderlogs
+  323  make
+  324  make raptor
+  325  make stego
+  326  gdb bin/orderlogs
+  327  make stegosaurus
+  328  make spinosaurus
+  329  make trike
+  330  gdb bin/orderlogs
+  331  history > shell_logs.txt
+  332  git add .
+  333  git commit -m "prof1 done"
+  334  git push
+  335  cd ..
+  336  rm -rf shared-repo-version-a-conchobhar2277/
+  337  git clone git@github.com:CS429-FA2025/ac-lab-conchobhar2277.git
+  338  cd ac_lab
+  339  ls -a
+  340  quit
+  341  git add .
+  342  git commit -m "week1AC"
+  343  git commit main -m "acweek1"
+  344  git push origin main
+  345  make
+  346  make clean
+  347  make debug
+  348  make comp
+  349  chmod +x ref.out
+  350  make comp
+  351  make clean
+  352  make debug
+  353  ./a.out testcases/short2.rep
+  354  ./bin/a.out testcases/short2.rep
+  355  ./bin/a.out -t testcases/short2.rep
+  356  ./bin/a.out -t testcases/short3.rep
+  357  ./bin/a.out -t testcases/short1.rep
+  358  make check
+  359  gdb bin/a.out
+  360  gdb ./bin/a.out
+  361  bin/a.out -t testcases/short2.rep
+  362  bin/a.out -t testcases/short2.rep
+  363  gdb ./bin/a.out
+  364  bin/a.out -t testcases/short2.rep
+  365  gdb bin/a.out
+  366  bin/a.out -t testcases/short2.rep
+  367  gdb bin/a.out
+  368  git add
+  369  git add .
+  370  git commit -m "blah"
+  371  git push origin main
+  372  history
+  373  history > shell_logs.txt
+  374  gdb ./bin/a.out
+  375  gdb
+  376  ls -a /.gdbhistory
+  377  ls -a
+  378  gdb ./bin/a.out
+  379  pwd
+  380  touch ./gdbinit_3
+  381  ls -a
+  382  echo "set history save on"
+  383  echo "set history save on" > ~./gdbinit_3
+  384  echo "set history save on" > /.gdbinit_3
+  385  chmod +x ref.out
+  386  echo "set history save on" > ~/.gdbinit_3
+  387  ssh-keygen -t ed25519
+  388  cat SHA256:8zpMMQm2byQOrg9pOeZzXTkP0fiKleXXqnqk60Us9aQ connor77@celestite
+  389  cat /u/connor77/.ssh/id_ed25519.pub
+  390  pwd
+  391  mkdir demo_3
+  392  cd demo_3
+  393  pwd
+  394  git clone git@github.com:conchobhar2277/Practice_3.git
+  395  ls
+  396  cd Practice_3
+  397  pwd
+  398  make
+  399  make check
+  400  chmod +x ret.out
+  401  chmod +x ref.out
+  402  chmod +x mini_ci mini_ci_reference
+  403  make check
+  404  make
+  405  mkae debug
+  406  make debug
+  407  make clean
+  408  run -t testcases/basic_add.s
+  409  run testcases/basic_add.s
+  410  make tests
+  411  gdb ./mini_ci
+  412  make debug
+  413  gdb ./mini_ci
+  414  gdb ./mini_ci testcases/basic_add.s
+  415  ./mini_ci testcases/basic_add.s
+  416  gdb ./mini_ci
+  417  make clean
+  418   make debug
+  419  gdb ./mini.ci
+  420  gdb ./mini_ci
+  421  make check
+  422  make check
+  423  make clean
+  424  make 
+  425  make check
+  426  make 
+  427  make check
+  428  gdb
+  429  history
+  430  history > shell_logs.txt
+  431  git add .
+  432  git commit -m "blahblahblah"
+  433  git push origin main
+  434  gdb
+  435  vim /u/connor77/.gdbinit
+  436  nano /u/connor77/.gdbinit
+  437  ls -a
+  438  vim /u/connor77/.gdbinit
+  439  gdb
+  440  touch ~/.gdbinit
+  441  ls -a
+  442  cat .gdbinit
+  443  clone git@github.com:conchobhar2277/practice_4.git
+  444  pwd
+  445  mkdir demo4
+  446  cd demo4
+  447  pwd
+  448  git clone git@github.com:conchobhar2277/practice_4.git
+  449  ls
+  450  git clone git@github.com:CS429-FA2025/se-lab-cs.git
+  451  ls
+  452  git add .
+  453  git commit -m "test"
+  454  git push origin main
+  455  make all
+  456  make test
+  457  run testcases/hw_elts/alu_hw.tb
+  458  make test-hw.c
+  459  ./test_hw.c
+  460  make test
+  461  make week1
+  462  make clean
+  463  make week1
+  464  make test-hw
+  465  make -h week1
+  466  git remote -v
+  467  make
+  468  make trex
+  469  make trex
+  470  make trex
+  471  bin/orderlogs testcases/all_new
+  472  bin/orderlogs -f testcases/all_new
+  473  make stego
+  474  chmod +x ref_order
+  475  make stego
+  476  gdb ./bin/orderlogs
+  477  make trike
+  478  make spinosaurus
+  479  make trike
+  480  gdb ./bin/orderlogs
+  481  make trike
+  482  make trike
+  483  gdb ./bin/orderlogs
+  484  make stego
+  485  gdb ./bin/orderlogs
+  486  make trike
+  487  make spinosaurus
+  488  make trike
+  489  gdb ./bin/orderlogs
+  490  make trex
+  491  make stego
+  492  make spinosaurus
+  493  make trike
+  494  gdb ./bin/orderlogs
+  495  make trex
+  496  make stego
+  497  history > shell_logs.txt
+  498  git add .
+  499  git commit -m "donezo"
+  500  git push origin main
+  501  git remote -v
+  502  make trike
+  503  make stego
+  504  chmod +x ref_order
+  505  make stego
+  506  bin/orderlogs -f testcases/all_new
+  507  make spinosaurus
+  508  make trike
+  509  gdb ./bin/orderlogs
+  510  make
+  511  make trex
+  512  make stego
+  513  gdb ./bin/orderlogs
+  514  make stegosaurus
+  515  make spinosaurus
+  516  make trike
+  517  gdb ./bin/orderlogs
+  518  make trike
+  519  make stego
+  520  make stego
+  521  make stego
+  522  make stego
+  523  make
+  524  make trike
+  525  make spinosaurus
+  526  make stego
+  527  make stego
+  528  make trike
+  529  gdb ./bin/orderlogs
+  530  make spinosaurus
+  531  make trike
+  532  gdb ./bin/orderlogs
+  533  make stego
+  534  make trike
+  535  gdb ./bin/orderlogs
+  536  make stego
+  537  history > shell_logs.txt

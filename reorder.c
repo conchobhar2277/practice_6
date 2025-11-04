@@ -18,10 +18,13 @@ static struct listnode* find_news(struct listnode** node) {
         follow = itr;
         itr = itr->next;
     }
-    follow->next = NULL;
+    if (follow != NULL){
+        follow->next = NULL;
+    }
     if (itr == *node) {
         *node = NULL;
     }
+
     return itr;
 }
 
@@ -57,7 +60,7 @@ static struct listnode* merge(struct listnode* node1, struct listnode* node2) {
 
 void print_list(struct listnode* node) {
     struct listnode* itr = node;
-    while (node) {
+    while (node && itr) {
         print_age(itr->age);
         printf(" [%d]\n", itr->value);
         itr = itr->next;
